@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051080AC1D0B73BF00BB34F7 /* DisplayMinuteCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051080AB1D0B73BF00BB34F7 /* DisplayMinuteCast.swift */; };
+		055825C21D18A05E003B4666 /* abackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 055825C11D18A05E003B4666 /* abackground.jpg */; };
+		056A03E11D14877600FBBAD6 /* DisplayTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056A03E01D14877600FBBAD6 /* DisplayTasks.swift */; };
+		058700941D1842B200D8FD66 /* InteractiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058700931D1842B200D8FD66 /* InteractiveCell.swift */; };
+		05961EE21D0C973A00CF58AC /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05961EDF1D0C973A00CF58AC /* ToDoItem.swift */; };
+		05961EE31D0C973A00CF58AC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05961EE01D0C973A00CF58AC /* TableViewCell.swift */; };
+		05961EE41D0C973A00CF58AC /* StrikeThroughText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05961EE11D0C973A00CF58AC /* StrikeThroughText.swift */; };
+		05961EE81D0CC6BA00CF58AC /* backgroundTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05961EE71D0CC6BA00CF58AC /* backgroundTimer.swift */; };
+		05AD17321D1B2C5100C13691 /* newscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 05AD17311D1B2C5100C13691 /* newscreen.png */; };
+		05C3481F1D187355003889C7 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3481E1D187355003889C7 /* TaskListViewController.swift */; };
+		05E8A4991D2181C100E37893 /* AllDayTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8A4981D2181C100E37893 /* AllDayTasks.swift */; };
+		115D04A446542CF585B862B5 /* Pods_Photon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884E775885D89DE4C247DE58 /* Pods_Photon.framework */; };
+		5BA0C1621D2C38A900D71AC4 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA0C1611D2C38A900D71AC4 /* GoogleMobileAds.framework */; };
+		5BCA2BC71D36D7760094C903 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA2BC61D36D7760094C903 /* GoogleService-Info.plist */; };
+		AA0416FF1D231AF2003EA2C1 /* Future Filled.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0416FE1D231AF2003EA2C1 /* Future Filled.png */; };
+		AA0417011D231AF9003EA2C1 /* Future Filled2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0417001D231AF9003EA2C1 /* Future Filled2.png */; };
+		AA0417031D231CCA003EA2C1 /* Future Filled copy.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0417021D231CCA003EA2C1 /* Future Filled copy.png */; };
+		AA0417051D231CF9003EA2C1 /* Future Filled copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0417041D231CF9003EA2C1 /* Future Filled copy 2.png */; };
+		AA04170F1D232DDE003EA2C1 /* Listt copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA04170C1D232DDE003EA2C1 /* Listt copy 2.png */; };
+		AA0417101D232DDE003EA2C1 /* Listt copy.png in Resources */ = {isa = PBXBuildFile; fileRef = AA04170D1D232DDE003EA2C1 /* Listt copy.png */; };
+		AA0417111D232DDE003EA2C1 /* Listt.png in Resources */ = {isa = PBXBuildFile; fileRef = AA04170E1D232DDE003EA2C1 /* Listt.png */; };
+		AA0417151D232F81003EA2C1 /* Hourglass Filled copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0417121D232F81003EA2C1 /* Hourglass Filled copy 2.png */; };
+		AA0417161D232F81003EA2C1 /* Hourglass Filled copy.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0417131D232F81003EA2C1 /* Hourglass Filled copy.png */; };
+		AA0417171D232F81003EA2C1 /* Hourglass Filled.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0417141D232F81003EA2C1 /* Hourglass Filled.png */; };
+		AA04171B1D2332B2003EA2C1 /* Sorting Arrows-30.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0417191D2332B2003EA2C1 /* Sorting Arrows-30.png */; };
+		AA0BE0B51D1C9AAC005B8F14 /* backgroundfortable.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0BE0B41D1C9AAC005B8F14 /* backgroundfortable.png */; };
+		AA0BE0B71D1CA277005B8F14 /* CREW36__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = AA0BE0B61D1CA277005B8F14 /* CREW36__.TTF */; };
+		AA1275A71D247DBA001C4A2C /* Calendar Filled.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1275A61D247DBA001C4A2C /* Calendar Filled.png */; };
+		AA1275A91D247DBF001C4A2C /* Calendar Filled2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1275A81D247DBF001C4A2C /* Calendar Filled2.png */; };
+		AA1275AB1D24800A001C4A2C /* CalendarFilled.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1275AA1D24800A001C4A2C /* CalendarFilled.png */; };
+		AA1275AD1D248236001C4A2C /* CalendarFilled2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1275AC1D248236001C4A2C /* CalendarFilled2.png */; };
+		AA3CE5D71D1DCA6000F8B99A /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3CE5D61D1DCA6000F8B99A /* SplashScreenViewController.swift */; };
+		AC0959931D2025A600ECDC32 /* croppedclockhand.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0959921D2025A600ECDC32 /* croppedclockhand.png */; };
+		AC1FE9D31D1F2C2F00713938 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FE9D21D1F2C2F00713938 /* CustomSegue.swift */; };
+		AC2DAE5B1D207F7000CB78D1 /* AccessToCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2DAE5A1D207F7000CB78D1 /* AccessToCalendar.swift */; };
+		AC41FF161CEBDAEF00565745 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41FF151CEBDAEF00565745 /* Timer.swift */; };
+		AC5D405B1C9DB77200D445B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D405A1C9DB77200D445B9 /* AppDelegate.swift */; };
+		AC5D405F1C9DB77200D445B9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D405E1C9DB77200D445B9 /* SecondViewController.swift */; };
+		AC5D40621C9DB77200D445B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5D40601C9DB77200D445B9 /* Main.storyboard */; };
+		AC5D40641C9DB77200D445B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5D40631C9DB77200D445B9 /* Assets.xcassets */; };
+		AC5D40671C9DB77200D445B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5D40651C9DB77200D445B9 /* LaunchScreen.storyboard */; };
+		ACA8E0B61D04A5030033900D /* ScheduleEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA8E0B51D04A5030033900D /* ScheduleEvents.swift */; };
+		ACE3E2191CFA8020007DCC86 /* TimerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3E2181CFA8020007DCC86 /* TimerArc.swift */; };
+		ACF64C1B1D234A120085E052 /* Checkmark Filled-500.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF64C1A1D234A120085E052 /* Checkmark Filled-500.png */; };
+		ACF64C1E1D234B480085E052 /* Checkmark Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF64C1C1D234B480085E052 /* Checkmark Filled-100.png */; };
+		ACF64C1F1D234B480085E052 /* Sorting Arrows Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF64C1D1D234B480085E052 /* Sorting Arrows Filled-100.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		051080AB1D0B73BF00BB34F7 /* DisplayMinuteCast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayMinuteCast.swift; sourceTree = "<group>"; };
+		055825C11D18A05E003B4666 /* abackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abackground.jpg; sourceTree = "<group>"; };
+		056A03E01D14877600FBBAD6 /* DisplayTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayTasks.swift; sourceTree = "<group>"; };
+		058700931D1842B200D8FD66 /* InteractiveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveCell.swift; sourceTree = "<group>"; };
+		05961EDF1D0C973A00CF58AC /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		05961EE01D0C973A00CF58AC /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		05961EE11D0C973A00CF58AC /* StrikeThroughText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrikeThroughText.swift; sourceTree = "<group>"; };
+		05961EE71D0CC6BA00CF58AC /* backgroundTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = backgroundTimer.swift; sourceTree = "<group>"; };
+		05AD17311D1B2C5100C13691 /* newscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newscreen.png; sourceTree = "<group>"; };
+		05C3481E1D187355003889C7 /* TaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		05E8A4981D2181C100E37893 /* AllDayTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllDayTasks.swift; sourceTree = "<group>"; };
+		26ED42F8952393F0EEA7F023 /* Pods-Photon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Photon/Pods-Photon.debug.xcconfig"; sourceTree = "<group>"; };
+		40968C6E1CD100B51DA35A2F /* Pods-Photon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Photon/Pods-Photon.release.xcconfig"; sourceTree = "<group>"; };
+		5BA0C1611D2C38A900D71AC4 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		5BCA2BC61D36D7760094C903 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		884E775885D89DE4C247DE58 /* Pods_Photon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0416FE1D231AF2003EA2C1 /* Future Filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Future Filled.png"; sourceTree = "<group>"; };
+		AA0417001D231AF9003EA2C1 /* Future Filled2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Future Filled2.png"; sourceTree = "<group>"; };
+		AA0417021D231CCA003EA2C1 /* Future Filled copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Future Filled copy.png"; sourceTree = "<group>"; };
+		AA0417041D231CF9003EA2C1 /* Future Filled copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Future Filled copy 2.png"; sourceTree = "<group>"; };
+		AA04170C1D232DDE003EA2C1 /* Listt copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Listt copy 2.png"; sourceTree = "<group>"; };
+		AA04170D1D232DDE003EA2C1 /* Listt copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Listt copy.png"; sourceTree = "<group>"; };
+		AA04170E1D232DDE003EA2C1 /* Listt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Listt.png; sourceTree = "<group>"; };
+		AA0417121D232F81003EA2C1 /* Hourglass Filled copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hourglass Filled copy 2.png"; sourceTree = "<group>"; };
+		AA0417131D232F81003EA2C1 /* Hourglass Filled copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hourglass Filled copy.png"; sourceTree = "<group>"; };
+		AA0417141D232F81003EA2C1 /* Hourglass Filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hourglass Filled.png"; sourceTree = "<group>"; };
+		AA0417191D2332B2003EA2C1 /* Sorting Arrows-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sorting Arrows-30.png"; sourceTree = "<group>"; };
+		AA0BE0B41D1C9AAC005B8F14 /* backgroundfortable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundfortable.png; sourceTree = "<group>"; };
+		AA0BE0B61D1CA277005B8F14 /* CREW36__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = CREW36__.TTF; sourceTree = "<group>"; };
+		AA1275A61D247DBA001C4A2C /* Calendar Filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar Filled.png"; sourceTree = "<group>"; };
+		AA1275A81D247DBF001C4A2C /* Calendar Filled2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar Filled2.png"; sourceTree = "<group>"; };
+		AA1275AA1D24800A001C4A2C /* CalendarFilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarFilled.png; sourceTree = "<group>"; };
+		AA1275AC1D248236001C4A2C /* CalendarFilled2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarFilled2.png; sourceTree = "<group>"; };
+		AA3CE5D61D1DCA6000F8B99A /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		AC0959921D2025A600ECDC32 /* croppedclockhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = croppedclockhand.png; sourceTree = "<group>"; };
+		AC1FE9D21D1F2C2F00713938 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		AC2DAE5A1D207F7000CB78D1 /* AccessToCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessToCalendar.swift; sourceTree = "<group>"; };
+		AC41FF151CEBDAEF00565745 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		AC5D40571C9DB77200D445B9 /* Photon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5D405A1C9DB77200D445B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC5D405E1C9DB77200D445B9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AC5D40611C9DB77200D445B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC5D40631C9DB77200D445B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC5D40661C9DB77200D445B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC5D40681C9DB77200D445B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA8E0B51D04A5030033900D /* ScheduleEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleEvents.swift; sourceTree = "<group>"; };
+		ACE3E2181CFA8020007DCC86 /* TimerArc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerArc.swift; sourceTree = "<group>"; };
+		ACF64C1A1D234A120085E052 /* Checkmark Filled-500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark Filled-500.png"; sourceTree = "<group>"; };
+		ACF64C1C1D234B480085E052 /* Checkmark Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark Filled-100.png"; sourceTree = "<group>"; };
+		ACF64C1D1D234B480085E052 /* Sorting Arrows Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sorting Arrows Filled-100.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC5D40541C9DB77200D445B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA0C1621D2C38A900D71AC4 /* GoogleMobileAds.framework in Frameworks */,
+				115D04A446542CF585B862B5 /* Pods_Photon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F09D2000F2CD7222F03ADE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26ED42F8952393F0EEA7F023 /* Pods-Photon.debug.xcconfig */,
+				40968C6E1CD100B51DA35A2F /* Pods-Photon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8919DBF0F319C4085C476D27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				884E775885D89DE4C247DE58 /* Pods_Photon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC5D404E1C9DB77200D445B9 = {
+			isa = PBXGroup;
+			children = (
+				5BA0C1611D2C38A900D71AC4 /* GoogleMobileAds.framework */,
+				AC5D40591C9DB77200D445B9 /* Photon */,
+				AC5D40581C9DB77200D445B9 /* Products */,
+				2F09D2000F2CD7222F03ADE7 /* Pods */,
+				8919DBF0F319C4085C476D27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC5D40581C9DB77200D445B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC5D40571C9DB77200D445B9 /* Photon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC5D40591C9DB77200D445B9 /* Photon */ = {
+			isa = PBXGroup;
+			children = (
+				055825C11D18A05E003B4666 /* abackground.jpg */,
+				5BCA2BC61D36D7760094C903 /* GoogleService-Info.plist */,
+				AC5D40681C9DB77200D445B9 /* Info.plist */,
+				AA0BE0B41D1C9AAC005B8F14 /* backgroundfortable.png */,
+				AA1275A61D247DBA001C4A2C /* Calendar Filled.png */,
+				AA1275A81D247DBF001C4A2C /* Calendar Filled2.png */,
+				AA1275AA1D24800A001C4A2C /* CalendarFilled.png */,
+				AA1275AC1D248236001C4A2C /* CalendarFilled2.png */,
+				ACF64C1C1D234B480085E052 /* Checkmark Filled-100.png */,
+				ACF64C1A1D234A120085E052 /* Checkmark Filled-500.png */,
+				AC0959921D2025A600ECDC32 /* croppedclockhand.png */,
+				AA0417041D231CF9003EA2C1 /* Future Filled copy 2.png */,
+				AA0417021D231CCA003EA2C1 /* Future Filled copy.png */,
+				AA0416FE1D231AF2003EA2C1 /* Future Filled.png */,
+				AA0417001D231AF9003EA2C1 /* Future Filled2.png */,
+				AA0417121D232F81003EA2C1 /* Hourglass Filled copy 2.png */,
+				AA0417131D232F81003EA2C1 /* Hourglass Filled copy.png */,
+				AA0417141D232F81003EA2C1 /* Hourglass Filled.png */,
+				AA04170C1D232DDE003EA2C1 /* Listt copy 2.png */,
+				AA04170D1D232DDE003EA2C1 /* Listt copy.png */,
+				AA04170E1D232DDE003EA2C1 /* Listt.png */,
+				05AD17311D1B2C5100C13691 /* newscreen.png */,
+				ACF64C1D1D234B480085E052 /* Sorting Arrows Filled-100.png */,
+				AA0417191D2332B2003EA2C1 /* Sorting Arrows-30.png */,
+				AC2DAE5A1D207F7000CB78D1 /* AccessToCalendar.swift */,
+				05E8A4981D2181C100E37893 /* AllDayTasks.swift */,
+				AC5D405A1C9DB77200D445B9 /* AppDelegate.swift */,
+				05961EE71D0CC6BA00CF58AC /* backgroundTimer.swift */,
+				AC1FE9D21D1F2C2F00713938 /* CustomSegue.swift */,
+				051080AB1D0B73BF00BB34F7 /* DisplayMinuteCast.swift */,
+				056A03E01D14877600FBBAD6 /* DisplayTasks.swift */,
+				058700931D1842B200D8FD66 /* InteractiveCell.swift */,
+				ACA8E0B51D04A5030033900D /* ScheduleEvents.swift */,
+				AC5D405E1C9DB77200D445B9 /* SecondViewController.swift */,
+				AA3CE5D61D1DCA6000F8B99A /* SplashScreenViewController.swift */,
+				05961EE11D0C973A00CF58AC /* StrikeThroughText.swift */,
+				05961EE01D0C973A00CF58AC /* TableViewCell.swift */,
+				05C3481E1D187355003889C7 /* TaskListViewController.swift */,
+				AC41FF151CEBDAEF00565745 /* Timer.swift */,
+				ACE3E2181CFA8020007DCC86 /* TimerArc.swift */,
+				05961EDF1D0C973A00CF58AC /* ToDoItem.swift */,
+				AA0BE0B61D1CA277005B8F14 /* CREW36__.TTF */,
+				AC5D40631C9DB77200D445B9 /* Assets.xcassets */,
+				AC5D40651C9DB77200D445B9 /* LaunchScreen.storyboard */,
+				AC5D40601C9DB77200D445B9 /* Main.storyboard */,
+			);
+			path = Photon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC5D40561C9DB77200D445B9 /* Photon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5D406B1C9DB77200D445B9 /* Build configuration list for PBXNativeTarget "Photon" */;
+			buildPhases = (
+				958B7CDE7C0B2EDA24B827A0 /* [CP] Check Pods Manifest.lock */,
+				AC5D40531C9DB77200D445B9 /* Sources */,
+				AC5D40541C9DB77200D445B9 /* Frameworks */,
+				AC5D40551C9DB77200D445B9 /* Resources */,
+				7A2040F53E4BB98A88F31C24 /* [CP] Embed Pods Frameworks */,
+				7B0EA9E8355685EB4F8B994C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photon;
+			productName = Photon;
+			productReference = AC5D40571C9DB77200D445B9 /* Photon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC5D404F1C9DB77200D445B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Rishi P.";
+				TargetAttributes = {
+					AC5D40561C9DB77200D445B9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = TAHRP3UQC2;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = AC5D40521C9DB77200D445B9 /* Build configuration list for PBXProject "Photon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC5D404E1C9DB77200D445B9;
+			productRefGroup = AC5D40581C9DB77200D445B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC5D40561C9DB77200D445B9 /* Photon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC5D40551C9DB77200D445B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0BE0B51D1C9AAC005B8F14 /* backgroundfortable.png in Resources */,
+				AA0417031D231CCA003EA2C1 /* Future Filled copy.png in Resources */,
+				AA1275A71D247DBA001C4A2C /* Calendar Filled.png in Resources */,
+				AC0959931D2025A600ECDC32 /* croppedclockhand.png in Resources */,
+				ACF64C1B1D234A120085E052 /* Checkmark Filled-500.png in Resources */,
+				AA0417011D231AF9003EA2C1 /* Future Filled2.png in Resources */,
+				055825C21D18A05E003B4666 /* abackground.jpg in Resources */,
+				AA0416FF1D231AF2003EA2C1 /* Future Filled.png in Resources */,
+				AA0417151D232F81003EA2C1 /* Hourglass Filled copy 2.png in Resources */,
+				AA04170F1D232DDE003EA2C1 /* Listt copy 2.png in Resources */,
+				AA0417051D231CF9003EA2C1 /* Future Filled copy 2.png in Resources */,
+				5BCA2BC71D36D7760094C903 /* GoogleService-Info.plist in Resources */,
+				AA1275AB1D24800A001C4A2C /* CalendarFilled.png in Resources */,
+				AA0417111D232DDE003EA2C1 /* Listt.png in Resources */,
+				AA0417101D232DDE003EA2C1 /* Listt copy.png in Resources */,
+				AA0417171D232F81003EA2C1 /* Hourglass Filled.png in Resources */,
+				ACF64C1E1D234B480085E052 /* Checkmark Filled-100.png in Resources */,
+				05AD17321D1B2C5100C13691 /* newscreen.png in Resources */,
+				ACF64C1F1D234B480085E052 /* Sorting Arrows Filled-100.png in Resources */,
+				AA0BE0B71D1CA277005B8F14 /* CREW36__.TTF in Resources */,
+				AA1275AD1D248236001C4A2C /* CalendarFilled2.png in Resources */,
+				AA04171B1D2332B2003EA2C1 /* Sorting Arrows-30.png in Resources */,
+				AC5D40671C9DB77200D445B9 /* LaunchScreen.storyboard in Resources */,
+				AA0417161D232F81003EA2C1 /* Hourglass Filled copy.png in Resources */,
+				AC5D40641C9DB77200D445B9 /* Assets.xcassets in Resources */,
+				AC5D40621C9DB77200D445B9 /* Main.storyboard in Resources */,
+				AA1275A91D247DBF001C4A2C /* Calendar Filled2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A2040F53E4BB98A88F31C24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Photon/Pods-Photon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B0EA9E8355685EB4F8B994C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Photon/Pods-Photon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		958B7CDE7C0B2EDA24B827A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC5D40531C9DB77200D445B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1FE9D31D1F2C2F00713938 /* CustomSegue.swift in Sources */,
+				05961EE41D0C973A00CF58AC /* StrikeThroughText.swift in Sources */,
+				AC5D405F1C9DB77200D445B9 /* SecondViewController.swift in Sources */,
+				AA3CE5D71D1DCA6000F8B99A /* SplashScreenViewController.swift in Sources */,
+				ACE3E2191CFA8020007DCC86 /* TimerArc.swift in Sources */,
+				ACA8E0B61D04A5030033900D /* ScheduleEvents.swift in Sources */,
+				058700941D1842B200D8FD66 /* InteractiveCell.swift in Sources */,
+				05961EE31D0C973A00CF58AC /* TableViewCell.swift in Sources */,
+				AC5D405B1C9DB77200D445B9 /* AppDelegate.swift in Sources */,
+				05C3481F1D187355003889C7 /* TaskListViewController.swift in Sources */,
+				05961EE81D0CC6BA00CF58AC /* backgroundTimer.swift in Sources */,
+				051080AC1D0B73BF00BB34F7 /* DisplayMinuteCast.swift in Sources */,
+				AC2DAE5B1D207F7000CB78D1 /* AccessToCalendar.swift in Sources */,
+				05E8A4991D2181C100E37893 /* AllDayTasks.swift in Sources */,
+				AC41FF161CEBDAEF00565745 /* Timer.swift in Sources */,
+				056A03E11D14877600FBBAD6 /* DisplayTasks.swift in Sources */,
+				05961EE21D0C973A00CF58AC /* ToDoItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC5D40601C9DB77200D445B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5D40611C9DB77200D445B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC5D40651C9DB77200D445B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5D40661C9DB77200D445B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC5D40691C9DB77200D445B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC5D406A1C9DB77200D445B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC5D406C1C9DB77200D445B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26ED42F8952393F0EEA7F023 /* Pods-Photon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rishi Pochiraju (F8LR872ZMW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rishi Pochiraju (F8LR872ZMW)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Photon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Photon",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skpd3v.Photon.spk;
+				PRODUCT_NAME = Photon;
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC5D406D1C9DB77200D445B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40968C6E1CD100B51DA35A2F /* Pods-Photon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rishi Pochiraju (TAHRP3UQC2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Rishi Pochiraju (TAHRP3UQC2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Photon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Photon",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skpd3v.Photon.spk;
+				PRODUCT_NAME = Photon;
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC5D40521C9DB77200D445B9 /* Build configuration list for PBXProject "Photon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5D40691C9DB77200D445B9 /* Debug */,
+				AC5D406A1C9DB77200D445B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5D406B1C9DB77200D445B9 /* Build configuration list for PBXNativeTarget "Photon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5D406C1C9DB77200D445B9 /* Debug */,
+				AC5D406D1C9DB77200D445B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC5D404F1C9DB77200D445B9 /* Project object */;
+}
